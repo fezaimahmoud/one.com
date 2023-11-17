@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="PassOrderTest">
+        <parameter name="browser" value="chrome" />
+        <parameter name="os" value="mac" />
+        <classes>
+            <class name="automationExerciseTests.PassingOrder" />
+        </classes>
+    </test>
+</suite>
